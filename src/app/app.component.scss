@@ -1,0 +1,50 @@
+
+.container {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .main {
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        width: 400px;
+        border-radius: 10px;
+        border: 2px solid black;
+        align-items: center;
+        .bg-image {
+            background-image: url('../assets/logo.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            filter: blur(8px);
+            height: 100%;
+            width:100%;
+        }
+
+        .content {
+            position: absolute;
+            top: 50%;
+          h2{
+              color: white;
+              text-align: center;
+              font-weight: 600;
+          }
+            .button {
+                display: flex;
+               justify-content: center;
+                button {
+                    background-color: black;
+                    width: 100px;
+                    height: 30px;
+                    color: white;
+                    border-radius: 8px;
+                    border: 1px solid white
+                }
+            }
+        }
+    }
+}
